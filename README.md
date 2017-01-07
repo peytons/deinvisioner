@@ -12,3 +12,7 @@ To install: You'll need to follow the instructions to *turn on developer mode* i
 
 Now you will be able to install extensions that are not hosted in the Chrome Web Store. However, please do so at your own risk, and make sure to read permissions for each extension very carefully. If you need to remove an extension, you can do so by clicking the trash can icon next to it on the Extensions page.
 
+
+If you want to muck with the source, you may find these instructions handy to *re-package the extension*:
+https://developer.chrome.com/extensions/packaging
+
