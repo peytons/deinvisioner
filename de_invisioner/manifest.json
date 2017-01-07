@@ -3,7 +3,7 @@
 
   "name": "Invision de-visioner",
   "description": "Removes any chrome from Invision sites",
-  "version": "1.1",
+  "version": "1.2",
 
   "background": { "scripts": ["background.js"] },
   "permissions": [
@@ -11,6 +11,7 @@
     "tabs"
   ],
   "page_action": {
-    "default_icon": "someicon_1.png"
+    "default_icon": "someicon_1.png",
+    "default_title": "Click to de-vision"
   }
 }

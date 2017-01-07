@@ -12,7 +12,9 @@ chrome.pageAction.onClicked.addListener(function(tab) {
 });
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-    if (tab.url /* && tab.url.indexOf('https://projects.invisionapp.com/') === 0 */ ) {
+    if (tab.url && tab.url.indexOf('invisionapp.com/') > 0) {
         chrome.pageAction.show(tabId);
+    } else {
+        chrome.pageAction.hide(tabId);
     }
 });
