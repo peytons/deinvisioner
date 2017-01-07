@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+
+  "name": "Invision de-visioner",
+  "description": "Removes any chrome from Invision sites",
+  "version": "1.1",
+
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "https://*.invisionapp.com/",
+    "tabs"
+  ],
+  "page_action": {
+    "default_icon": "someicon_1.png"
+  }
+}
